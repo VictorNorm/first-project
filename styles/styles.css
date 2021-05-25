@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 1px solid black;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.button {
+    margin: 20px auto;
+    background-color: rgb(9, 201, 9);
+    border-style: none;
+    border: 1px solid #ccc;
+    color: rgb(20, 20, 20);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 40px;
+    transition: all 200ms;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:active {
+    transform: scale(1.2);
+}
+
+.info {
+    font-size: 20px;
+}
